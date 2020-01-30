@@ -370,12 +370,21 @@ footer{
         display: flex;
         justify-content: space-between;
     }
+
+    .firstRow{
+        height: 30%;
+        flex-wrap: wrap-reverse;
+        width: 100%;
+        justify-content: center;
+    }
+
 }
 
 @media(max-width: 500px){
     .logoContainer{
         width: 100%;
-        padding-bottom: 12%;
+        padding-bottom: 10%;
+        height: 2%;
     }
     .navFlex{
         display:flex;
@@ -408,4 +417,34 @@ footer{
         padding: 5% 0% 5% 0%;
     }
 
+    .logo{
+        padding-bottom: 25%;
+        height: 22%;
+        width: 100%;
+    }
+    .firstRow{
+        padding-top: 2%;
+    }
+
+    .firstRow1, .secondRow2, .thirdRow3{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+	    margin-bottom: 5px;
+    }
+
+    .serviceContainer{
+        margin-bottom: 9%;
+    }
+
+    .thirdRow4{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        padding: 5% 0% 5% 0%;
+    }
+    /* .services-info-img, .facts{
+        width: 100%;
+        padding: 5% 0% 5% 0%;
+    } */
 }
